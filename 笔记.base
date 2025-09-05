@@ -1,0 +1,20 @@
+properties:
+  note.summary:
+    displayName: 总结
+  file.backlinks:
+    displayName: 反向链接
+views:
+  - type: cards
+    name: 卡片
+    filters:
+      and:
+        - file.inFolder("notes")
+    order:
+      - file.name
+      - summary
+      - file.backlinks
+      - tags
+      - file.ctime
+      - file.mtime
+    imageFit: contain
+    cardSize: 200
