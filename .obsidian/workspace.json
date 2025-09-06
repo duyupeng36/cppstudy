@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/引言.md",
+                "file": "notes/起步.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "引言"
+              "title": "起步"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/引言.md",
+                "file": "notes/起步.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "引言 的反向链接列表"
+              "title": "起步 的反向链接列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/引言.md",
+                "file": "notes/起步.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "引言 的大纲"
+              "title": "起步 的大纲"
             }
           },
           {
@@ -177,12 +177,12 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,16 +198,20 @@
   },
   "active": "59b0ce920343acf8",
   "lastOpenFiles": [
-    "notes/引言.md",
+    "code/firstcpp/main.exe",
+    "code/firstcpp/main.pdb",
+    "code/firstcpp/main.ilk",
+    "code/firstcpp/main.obj",
+    "code/firstcpp/vc140.pdb",
+    "notes/起步.md",
+    "code/firstcpp/main.cpp",
+    "code/firstcpp",
     "assets/Excalidraw/Drawing 2025-09-05 01.30.05.excalidraw.md",
     "assets/Excalidraw/Drawing 2025-09-05 01.07.02.excalidraw.md",
     "assets/Excalidraw",
     "笔记.base",
     "README.md",
     "Excalidraw/Drawing 2025-09-05 00.31.53.excalidraw.md",
-    "Excalidraw",
-    "code",
-    "notes",
-    "assets"
+    "Excalidraw"
   ]
 }
