@@ -10,6 +10,22 @@
           {
             "id": "59b0ce920343acf8",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "f082c794dbeeffdd",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -21,7 +37,8 @@
               "title": "起步"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,22 +213,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "59b0ce920343acf8",
+  "active": "f082c794dbeeffdd",
   "lastOpenFiles": [
-    "code/firstcpp/main.exe",
-    "code/firstcpp/main.pdb",
-    "code/firstcpp/main.ilk",
-    "code/firstcpp/main.obj",
     "code/firstcpp/vc140.pdb",
-    "notes/起步.md",
+    "code/firstcpp/main.pdb",
+    "code/firstcpp/main.obj",
+    "code/firstcpp/main.ilk",
+    "code/firstcpp/main.exe",
     "code/firstcpp/main.cpp",
     "code/firstcpp",
+    "code/cpp_projects/firstcpp/main.pdb",
+    "code/cpp_projects/firstcpp/main.ilk",
+    "code/cpp_projects/firstcpp/main.obj",
+    "code/cpp_projects/firstcpp/vc140.pdb",
+    "README.md",
+    "notes/起步.md",
     "assets/Excalidraw/Drawing 2025-09-05 01.30.05.excalidraw.md",
     "assets/Excalidraw/Drawing 2025-09-05 01.07.02.excalidraw.md",
-    "assets/Excalidraw",
-    "笔记.base",
-    "README.md",
-    "Excalidraw/Drawing 2025-09-05 00.31.53.excalidraw.md",
-    "Excalidraw"
+    "Excalidraw/Drawing 2025-09-05 00.31.53.excalidraw.md"
   ]
 }

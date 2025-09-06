@@ -1,19 +1,7 @@
 {
     "configurations": [
         {
-            "name": "C/C++: Debug With MSVC",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "console": "integratedTerminal",
-            "preLaunchTask": "C/C++: Build With MSVC"
-        },
-        {
-            "name": "C/C++: Debug With GDB",
+            "name": "C: Debug With GDB for GCC",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -23,7 +11,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -36,10 +24,10 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: Buid With G++"
+            "preLaunchTask": "C: Build With GCC"
         },
         {
-            "name": "C/C++: Debug With LLDB",
+            "name": "C: Debug With LLDB for Clang",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -49,7 +37,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "miDebuggerPath": "C:\\mingw64\\bin\\lldb.exe",
+            "miDebuggerPath": "C:\\msys64\\clang64\\bin\\lldb.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -62,7 +50,71 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: Buid With Clang++"
+            "preLaunchTask": "C: Build With Clang"
+        },
+        {
+            "name": "C++: Debug With GDB for GCC",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C++: Build With GCC"
+        },
+        {
+            "name": "C++: Debug With LLDB for Clang",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "miDebuggerPath": "C:\\msys64\\clang64\\bin\\lldb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C++: Build With Clang"
+        },
+        {
+            "name": "C++: Debug With MSVC",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "C++: Build With MSVC"
         }
     ],
     "version": "2.0.0"

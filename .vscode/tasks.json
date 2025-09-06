@@ -1,69 +1,110 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "cppbuild",
-            "label": "C/C++: Buid With G++",
-            "command": "C:\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-std=c++23",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "编译器: C:\\mingw64\\bin\\g++.exe"
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: Build With MSVC",
-            "command": "cl.exe",
-            "args": [
-                "/Zi",
-                "/std:c++23",
-                "/EHsc",
-                "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$msCompile"
-            ],
-            "group": "build",
-            "detail": "编译器: cl.exe"
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: Buid With Clang++",
-            "command": "C:\\mingw64\\bin\\clang++.exe",
-            "args": [
-                "-fcolor-diagnostics",
-                "-fansi-escape-codes",
-                "-std=c++23",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "编译器: C:\\mingw64\\bin\\clang++.exe"
-        }
-    ]
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C++: Build With MSVC",
+			"command": "cl.exe",
+			"args": [
+				"/Zi",
+				"/std:c++latest",
+				"/EHsc",
+				"/nologo",
+				"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${file}"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "编译器: cl.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C++: Build With GCC",
+			"command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-std=c++23",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:\\msys64\\ucrt64\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C++: Build With Clang",
+			"command": "C:\\msys64\\clang64\\bin\\clang++.exe",
+			"args": [
+				"-fcolor-diagnostics",
+				"-fansi-escape-codes",
+				"-std=c++23",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:\\msys64\\clang64\\bin\\clang++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C: Build With GCC",
+			"command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C: Build With Clang",
+			"command": "C:\\msys64\\clang64\\bin\\clang.exe",
+			"args": [
+				"-fcolor-diagnostics",
+				"-fansi-escape-codes",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:\\msys64\\clang64\\bin\\clang.exe"
+		}
+	]
 }
