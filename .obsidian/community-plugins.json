@@ -3,5 +3,7 @@
   "obsidian-style-settings",
   "obsidian-admonition",
   "obsidian-excalidraw-plugin",
-  "url-into-selection"
+  "url-into-selection",
+  "code-styler",
+  "copilot"
 ]
