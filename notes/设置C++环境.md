@@ -8,7 +8,7 @@ tags:
   - cpp/enviroment
 summary: C++ 接近硬件的高性能通用编程语言
 ---
-# 设置 C++ 环境
+# 设置C++环境
 
 ## C++ 介绍
 

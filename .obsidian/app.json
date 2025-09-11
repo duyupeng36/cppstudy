@@ -1,9 +1,12 @@
 {
   "showLineNumber": true,
   "tabSize": 4,
-  "vimMode": true,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "notes",
-  "attachmentFolderPath": "assets/images"
+  "attachmentFolderPath": "assets/images",
+  "defaultViewMode": "preview",
+  "useMarkdownLinks": false,
+  "propertiesInDocument": "hidden"
 }
