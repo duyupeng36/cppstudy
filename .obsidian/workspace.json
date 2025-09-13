@@ -106,6 +106,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a40157f0c3ffca6a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/变量与数据类型.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "变量与数据类型 的大纲"
+            }
+          },
+          {
             "id": "074beedfc394e9b2",
             "type": "leaf",
             "state": {
@@ -154,21 +169,6 @@
             }
           },
           {
-            "id": "a40157f0c3ffca6a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes/变量与数据类型.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "变量与数据类型 的大纲"
-            }
-          },
-          {
             "id": "1d3448dc570fd28e",
             "type": "leaf",
             "state": {
@@ -181,21 +181,24 @@
             }
           },
           {
-            "id": "7606dacb82c4779d",
+            "id": "4be2487cdcaa7a4a",
             "type": "leaf",
             "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,23 +215,22 @@
   },
   "active": "47c6a96d546075b5",
   "lastOpenFiles": [
+    "notes/变量与数据类型.md",
+    "code/section-8/float/main.out",
+    "code/section-8/float/main.cpp",
+    "code/section-8/float",
+    "code/section-8/integer/main.out",
+    "code/section-8/integer/main.cpp",
+    "code/section-8/integer",
+    "code/hello/hello.cpp",
+    "code/hello",
     "code/section-8/number-system/main.exe",
     "code/section-8/number-system/main.cpp",
-    "code/section-8/number-system",
     "assets/Excalidraw/Drawing 2025-09-10 22.55.11.excalidraw.md",
-    "notes/变量与数据类型.md",
     "README.md",
     "assets/Excalidraw/Drawing 2025-09-05 01.07.02.excalidraw.md",
-    "code/section-8/data-types",
-    "code/section-8/variables",
     "notes/入门.md",
     "notes/设置C++环境.md",
-    "code/section-8",
-    "code/section-7/errors_and_warnings/warning.exe",
-    "code/section-7/errors_and_warnings/warning.cpp",
-    "code/section-7/errors_and_warnings/runtime_errors.exe",
-    "code/section-7/errors_and_warnings/compiler_errors.exe",
-    "code/section-7/errors_and_warnings/runtime_errors.cpp",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
